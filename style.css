@@ -1,7 +1,7 @@
 .modal-content{ 
 	background:url(Images/photo.png);
 	background-size: cover;
-	background-repeat: no-repeat;"
+	background-repeat: no-repeat;
 	background:rgba(0, 0, 0, 0.5);
 	height: 80%; 
 }
