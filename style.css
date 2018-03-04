@@ -1,0 +1,104 @@
+.modal-content{ 
+	background:url(Images/photo.png);
+	background-size: cover;
+	background-repeat: no-repeat;"
+	background:rgba(0, 0, 0, 0.5);
+	height: 80%; 
+}
+.modal-content .close {
+	width: 40px;
+	height: 40px;
+}
+
+.modal-dialog {
+ 	width: 500px; 
+ 	height:800px;
+ 
+}	
+@font-face{
+	font-family: 'header1';
+	src: url('Documentfonts/Calibril.ttf') format("truetype");
+	
+}
+.small{
+	font-size: 30px;
+	font-weight: bolder;
+}
+h1 {
+	font-family: 'header3';
+	padding: 5px;
+	font-weight: bolder;
+}
+@font-face{
+	font-family: 'headercaps';
+	src: url('Documentfonts/Faith And Glory Two.ttf') format("truetype");
+	
+}
+.caps{
+	font-family: 'headercaps';
+}
+
+@font-face{
+	font-family: 'header2';
+	src: url('Documentfonts/Faith And Glory One.ttf') format("truetype");
+}
+h3 {
+	font-family: 'header2';
+	padding: 10px;
+	
+}
+@font-face{
+	font-family: 'header3';
+	src: url('Documentfonts/Archer-Light.otf') format("opentype");
+}
+p{
+	font-family: 'header3';
+	font-weight: bold;
+	padding: 5px;
+}
+.checkbox1{
+	font-family: 'header3';	
+	background-color: #fff;
+	display: inline-block;
+	padding-left: 2rem;
+	padding-bottom: -4rem;
+	font-weight: bold;
+}
+.submitcheckbox{
+	background-color: #d8dbde;
+	color: #000000;
+	font-family: 'header3';
+	font-weight: bold;
+}
+
+
+input[type="text"]::placeholder { 
+   color: #000000;
+   font-family: 'header3';
+}
+input[type="password"]::placeholder {
+   color: #000000;
+   font-family: 'header3';
+}
+input, textarea{
+    background-color:#fff;
+    color: #000000;
+    font-family: 'header3';
+}
+#datepicker input[type="text"]{ 
+	border: none;
+}
+#datepicker > span:hover{
+	cursor: pointer;
+}
+.calender-margin{
+	background-color: #fff;
+	border: 1px solid ;
+	border-radius: 0.25rem;
+	border-color: #ced4da;
+
+}
+
+img {
+	padding-top: 3px;
+}
